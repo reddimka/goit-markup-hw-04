@@ -163,7 +163,7 @@ body {
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url(/imgages/header/headerimg.jpg);
+    url(./imgages/header/headerimg.jpg);
   background-repeat: no-repeat;
 }
 .features-list-hero {
