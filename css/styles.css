@@ -59,7 +59,9 @@ body {
 .header-address-list {
   display: flex;
 }
-
+.header-address {
+  display: flex;
+}
 .logo {
   margin-right: 85px;
 }
@@ -98,10 +100,8 @@ body {
 }
 .icon-header {
   display: flex;
-  max-width: 100%;
-  height: auto;
+  margin-right: 10px;
 }
-
 .navigation-list-link,
 .header-mail,
 .header-tel {
@@ -280,9 +280,20 @@ body {
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
 }
-.social-link-team:hover {
-  fill: var(--hover-color);
+.social-link-list .social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
 }
+.social-link-list .social-link:hover {
+  background-color: var(--hover-color);
+  fill: var(--tex-taitle-light);
+}
+
 .social-link-team {
   width: 20px;
   height: 20px;
