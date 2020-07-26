@@ -161,6 +161,8 @@ body {
   margin: auto;
   width: 200px;
   height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .overlay {
   max-width: 1600px;
@@ -365,6 +367,7 @@ body {
   display: flex;
   padding-top: 72px;
   flex-direction: column;
+  margin-right: 94px;
 }
 .footer-social-link-list {
   display: flex;
@@ -400,7 +403,13 @@ body {
   font-style: normal;
   color: var(--accent-color-text);
 }
-
+.footer-social .social-link-list-item .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--tex-taitle-light);
+}
+.footer-social .social-link-list-item .social-link:hover {
+  background-color: var(--hover-color);
+}
 .footer-text {
   font-weight: bold;
   font-size: 14px;
@@ -409,6 +418,29 @@ body {
   text-transform: uppercase;
   color: var(--tex-taitle-light);
   margin-bottom: 20px;
+}
+.footer-button-section {
+  display: flex;
+  padding-top: 72px;
+  flex-direction: column;
+}
+.footer-buttom {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--tex-taitle-light);
+  background-color: var(--hover-color);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-icon-button {
+  padding-top: 6px;
+  width: 24px;
+  height: 24px;
+  fill: var(--tex-taitle-light);
 }
 /*портфолио*/
 .filter-list {
