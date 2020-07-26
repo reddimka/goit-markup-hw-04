@@ -272,6 +272,21 @@ body {
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
+.team-list-item {
+  width: 270px;
+  height: 422px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+.social-link-team:hover {
+  fill: var(--hover-color);
+}
+.social-link-team {
+  width: 20px;
+  height: 20px;
+}
 .team,
 .position {
   font-weight: 500;
@@ -299,7 +314,6 @@ body {
 }
 .customer-link:hover {
   border-color: var(--hover-color);
-  color: var(--hover-color);
 }
 
 .clients-list {
